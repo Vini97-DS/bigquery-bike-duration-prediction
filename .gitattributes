@@ -1,0 +1,5 @@
+# Considera notebooks como arquivos de documentação/gerados, ignorando-os nas estatísticas de linguagem.
+*.ipynb linguist-vendored
+
+# Garante que os arquivos .sql sejam sempre detectados como código.
+*.sql linguist-detectable=true
